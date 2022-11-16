@@ -3,7 +3,7 @@ import { IOptions } from "./type";
 
 const preset = {
   vconsole: {
-    src: `https://unpkg.com/vconsole@latest/dist/vconsole.min.js`,
+    src: `https://unpkg.com/vconsole@3.14.7/dist/vconsole.min.js`,
     code: `new window.VConsole();`,
   },
   eruda: {
